@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
 import RPi.GPIO as GPIO
-import SimpleMFRC522
 import os
 import time
 import base64
 import pickledb
+import SimpleMFRC522
 
 reader = SimpleMFRC522.SimpleMFRC522()
 
